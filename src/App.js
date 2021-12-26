@@ -1,7 +1,9 @@
 import React from "react";
+import "./styles.css";
+import WriteChatter from "./WriteChatter";
 
 const App = () => {
-  return <div>Hello World!</div>;
+  return <WriteChatter />;
 };
 
 export default App;
