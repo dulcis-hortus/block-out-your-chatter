@@ -1,0 +1,59 @@
+html,
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, #ffffff, #4682B4, #000000);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.parent {
+    background: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent[data-isOpen="true"] {
+    width: 400px;
+    height: 200px;
+}
+
+.child {
+    width: 40px;
+    height: 40px;
+    background: #f107a3;
+    border-radius: 50%;
+}
+
+.chatterBox {
+    height: 13vw;
+    width: 17vw;
+    min-width: 15rem;
+    min-height: 13rem;
+    padding: 1rem;
+    resize: none;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15rem;
+    border-radius: 5px 5px 0 5px;
+    border-bottom-right-radius: 80px 40px;
+}
